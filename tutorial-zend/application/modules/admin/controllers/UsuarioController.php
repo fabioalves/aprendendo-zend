@@ -1,0 +1,64 @@
+<?php
+
+class Admin_UsuarioController extends Zend_Controller_Action
+{
+
+    public function init()
+    {
+    	$this->_db = new Application_Model_DbTable_Usuario();
+    }
+
+    public function indexAction()
+    {
+        // action body
+    }
+
+    public function addAction()
+    {
+        $dados = array(
+        	'id' => null,
+        	'nome' => utf8_encode('Zé'),
+        	'email' => 'ze@teste.com',
+        	'login' => 'zeninguem',
+        	'senha' => md5('123456')
+        );
+        
+        $res = $this->_db->insert($dados);
+    }
+
+    public function updateAction()
+    {
+        $dados = array(
+        	'nome' => 'Seu Nome Aqui',
+	        'email' => 'seu@email.com',
+	        'login' => 'seu_login',
+	        'senha' => md5('sua_senha'),
+        );
+        
+        $this->_db->update($dados, 'id = 1');
+    }
+
+    public function deleteAction()
+    {
+        $this->_db->delete('id = 2');
+    }
+
+    public function listAction()
+    {
+        // action body
+        
+    	$usuario = $this->_db->fetchRow('id = 1');
+    	$this->view->usuario = $usuario;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+

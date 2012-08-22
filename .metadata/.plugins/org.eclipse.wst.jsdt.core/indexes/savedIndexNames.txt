@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+C:\Users\Fabio\projetos\aprendendo-zend\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3753576471.index
+1643462325.index
+299380460.index
+4120781904.index
+2754652178.index

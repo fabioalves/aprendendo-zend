@@ -1,0 +1,25 @@
+<?php
+
+class Admin_UsuarioController extends Zend_Controller_Action
+{
+
+    public function init()
+    {
+    	$this->_db = new Application_Model_DbTable_Usuario();
+    }
+
+    public function indexAction()
+    {
+        // action body
+    }
+
+    public function addAction()
+    {
+        // action body
+    }
+
+
+}
+
+
+

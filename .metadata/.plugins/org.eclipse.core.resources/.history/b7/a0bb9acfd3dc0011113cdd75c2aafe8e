@@ -1,0 +1,40 @@
+<?php
+
+class Admin_UsuarioController extends Zend_Controller_Action
+{
+
+    public function init()
+    {
+    	$this->_db = new Application_Model_DbTable_Usuario();
+    }
+
+    public function indexAction()
+    {
+        // action body
+    }
+
+    public function addAction()
+    {
+        $dados = array(
+        	'id' => null,
+        	'nome' => 'Zé',
+        	'email' => 'ze@teste.com',
+        	'login' => 'zeninguem',
+        	'senha' => md5('123456')
+        );
+        
+        $res = $this->_db->insert($dados);
+    }
+
+    public function updateAction()
+    {
+        // action body
+    }
+
+
+}
+
+
+
+
+

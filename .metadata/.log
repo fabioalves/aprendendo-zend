@@ -1,0 +1,109 @@
+!SESSION 2012-08-02 10:58:31.156 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -showlocation -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -data C:\Users\Fabio\projetos\aprendendo-zend -showlocation
+
+!ENTRY org.eclipse.osgi 2 1 2012-08-02 10:58:37.401
+!MESSAGE NLS unused message: RemoteServerConfigurationPage_RemoteConfiguratiuon in: com.zend.php.remoteproject.internal.ui.wizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2012-08-02 10:58:37.401
+!MESSAGE NLS unused message: RemoteServerConfigurationPage_formatServerURLError in: com.zend.php.remoteproject.internal.ui.wizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2012-08-02 10:58:37.402
+!MESSAGE NLS missing message: CreateProjectWorkspaceJob_0 in: com.zend.php.remoteproject.internal.ui.wizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2012-08-02 10:58:37.402
+!MESSAGE NLS missing message: CreateProjectWorkspaceJob_1 in: com.zend.php.remoteproject.internal.ui.wizard.messages
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2012-08-02 14:53:13.186
+!MESSAGE Resource is out of sync with the file system: '/tutorial-zend/application/modules/admin/controllers/UsuarioController.php'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/tutorial-zend/application/modules/admin/controllers/UsuarioController.php'.
+	at org.eclipse.core.internal.resources.File.checkSynchronized(File.java:103)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:273)
+	at org.eclipse.wst.sse.ui.internal.actions.FormatActionDelegate.processorAvailable(FormatActionDelegate.java:219)
+	at org.eclipse.php.internal.ui.actions.format.FormatActionDelegate.selectionChanged(FormatActionDelegate.java:141)
+	at org.eclipse.php.internal.ui.actions.FormatDocumentAction.selectionChanged(FormatDocumentAction.java:33)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:206)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:277)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:299)
+	at org.eclipse.ui.internal.AbstractSelectionService.fireSelection(AbstractSelectionService.java:156)
+	at org.eclipse.ui.internal.AbstractSelectionService$1.selectionChanged(AbstractSelectionService.java:62)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:162)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:160)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2162)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1190)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1220)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:228)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:222)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:389)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2012-08-02 14:53:13.186
+!MESSAGE Resource is out of sync with the file system: '/tutorial-zend/application/modules/admin/controllers/UsuarioController.php'.
+!SESSION 2012-08-03 10:50:31.240 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -showlocation -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -data C:\Users\Fabio\projetos\aprendendo-zend -showlocation
+
+!ENTRY org.eclipse.osgi 2 1 2012-08-03 10:50:36.335
+!MESSAGE NLS unused message: RemoteServerConfigurationPage_RemoteConfiguratiuon in: com.zend.php.remoteproject.internal.ui.wizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2012-08-03 10:50:36.349
+!MESSAGE NLS unused message: RemoteServerConfigurationPage_formatServerURLError in: com.zend.php.remoteproject.internal.ui.wizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2012-08-03 10:50:36.350
+!MESSAGE NLS missing message: CreateProjectWorkspaceJob_0 in: com.zend.php.remoteproject.internal.ui.wizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2012-08-03 10:50:36.350
+!MESSAGE NLS missing message: CreateProjectWorkspaceJob_1 in: com.zend.php.remoteproject.internal.ui.wizard.messages
+!SESSION 2012-08-03 16:38:56.438 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.osgi 2 1 2012-08-03 16:39:03.302
+!MESSAGE NLS unused message: RemoteServerConfigurationPage_RemoteConfiguratiuon in: com.zend.php.remoteproject.internal.ui.wizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2012-08-03 16:39:03.303
+!MESSAGE NLS unused message: RemoteServerConfigurationPage_formatServerURLError in: com.zend.php.remoteproject.internal.ui.wizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2012-08-03 16:39:03.303
+!MESSAGE NLS missing message: CreateProjectWorkspaceJob_0 in: com.zend.php.remoteproject.internal.ui.wizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2012-08-03 16:39:03.303
+!MESSAGE NLS missing message: CreateProjectWorkspaceJob_1 in: com.zend.php.remoteproject.internal.ui.wizard.messages
